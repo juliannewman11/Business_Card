@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="HardcoddedText">
+
+    <ImageView
+        android:id="@+id/cafe_name"
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:src="@drawable/cafeimage"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_below="@+id/cafe_name"
+        android:text=" - 14351 N Dale Mabry Hwy, 33618"
+        android:textColor="@android:color/black"
+        android:background="#0ec911"
+        android:textSize="24sp"/>
+    <TextView
+        android:id="@+id/website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_below="@id/address"
+        android:text=" - wwww.genuinoitaliancafe.com"
+        android:background="#ec1e1e"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_below="@id/website"
+        android:text="@string/desc_biz"
+        android:background="#ffffff"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"/>
+</RelativeLayout>
+
+
+
+
+
+
